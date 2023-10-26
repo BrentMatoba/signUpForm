@@ -15,9 +15,30 @@ body{
     height: 100%;
 }
 #right{
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
     width: 48%;
     height: 100%;
+}
+#topSpace{
+    background-color: aqua;
+    width: 100%;
+    height: 15%
+}
+#formContainer{
+    margin-top: 10%;
+    background-color: white;
+    /*Pretty sure this is also whitesmoke, but has shadows*/
+}
+.rightContent{
+    width: 90%;
+    margin-left: 5%;
+
+}
+.rightText{
+    font-size: larger;
+
 }
 #bar{
     display: flex;
