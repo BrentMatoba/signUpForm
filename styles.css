@@ -2,6 +2,12 @@ body{
     margin:0;
     background-color: black;
 }
+
+/*Imports the odin font*/
+@font-face {
+    font-family: 'Norse';
+    src: url('./assets/Norse-Bold.otf') format('opentype');
+}
 ul{
     list-style-type: none;
 }
@@ -53,6 +59,7 @@ button{
     font-size: large;
 
 }
+
 #bar{
     display: flex;
     justify-content: center;
@@ -61,8 +68,11 @@ button{
     margin-top: 40%;
     background-color: black;
     opacity: 0.5;
+
 }
+
 #background-pic{
+
     position:fixed;
     height: 100%;
     width: 30%;
@@ -70,6 +80,8 @@ button{
 #left-text{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 100px;
     margin-top: 8%;
+    font-family: "Norse", sans-serif
+
 }
