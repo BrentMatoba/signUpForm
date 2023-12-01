@@ -26,10 +26,15 @@
             <div class="rightText">Lets do this!</div>
             <form action="">
                 <ul>
-                    <li><label for="firstName">First Name: </label><input type="text" name="firstName" value="Type first name here" required>
-                        <label>Last Name: </label><input type="text" name="lastName" value ="Type last name here" required></li>
-                    <li><label>email: </label><input type="Email" name="userEmail" value = "email" required > <label>Phone Number: </label><input type="tel" value = "phone number here" name="phoneNumber" required > </li>
-                    <li><label>Password: </label><input type="password" name="passwordOne" value = "password here"> <label>Confirm Password: </label><input type="password" name="passwordTwo" value = "confirm password here"></li>
+                    <li><div class="verticality">
+                        <label for="firstName">First Name: </label><input type="text" name="firstName" id="firstName" value="Type first name here" required> 
+                        </div>
+                        <div class="verticality">
+                        <label for="lastName">Last Name: </label><input type="text" name="lastName" id="lastName" value ="Type last name here" required>
+                    </div>
+                    </li>
+                    <li><label for="userEmail">email: </label><input type="Email" name="userEmail" id="userEmail" value = "email" required > <label for="phoneNumber">Phone Number: </label><input type="tel" value = "phone number here" name="phoneNumber" id="phoneNumber" required > </li>
+                    <li><label for="password">Password: </label><input type="password" name="password" id="password" value = "password here"> <label for="passwordConfirm">Confirm Password: </label><input type="password" name="passwordTwo" id="passwordConfirm" value = "confirm password here"></li>
                 </ul>
             </form>
 
