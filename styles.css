@@ -8,8 +8,13 @@ body{
     font-family: 'Norse';
     src: url('./assets/Norse-Bold.otf') format('opentype');
 }
-ul{
-    list-style-type: none;
+.error{
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
 }
 button{
     margin: 5%;
