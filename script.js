@@ -1,11 +1,8 @@
-
-
-
 const password = document.getElementById("password");
 const passwordConfirm = document.getElementById("passwordConfirm");
 const submitButton = document.getElementById("submitButton");
 
-
+//Checks if passwords are viable on frontEnd
 function checkPass(){
     let value1 = password.value;
     let value2 = passwordConfirm.value;
